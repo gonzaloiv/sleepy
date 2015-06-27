@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 /*
 Theme Name: Sleepy
 Theme URI: http://underscores.me/
@@ -48,7 +48,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -375,7 +375,7 @@ q {
 }
 
 hr {
-    background-color: #ccc;
+    background-color: black;
     border: 0;
     height: 1px;
     margin-bottom: 1.5em;
@@ -505,7 +505,7 @@ a {
 }
 
 a:visited {
-    color: purple;
+    color: #0E1C27;
 }
 
 a:hover,
@@ -895,50 +895,81 @@ object {
 Sleepy.............................
 */
 
-.entry-content {
-    margin:10%;
-    padding: 5%;
-    border-radius: 50px;
-    background-color: white;
-    line-height: 1.4em;
-}
-.entry-header {
-    margin:0 auto;
-    text-align: center;
+.site-title {
+    margin: 0 auto;
+    padding-top: 80px;
     background: white;
-}
-
-.site-title{
-    font-weight: 200;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    font-weight: 100;
     font-style: normal;
     text-decoration: none;
-    padding:50px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
+
 }
 
-.site-description{
-    display: inline;
-    background:white;
+.site-description {
+    display: inline-block;
+    height:50px;
+    margin-top: 20px;
+    color:white;
 }
 
 .site-branding {
-    margin:20px auto;
+    margin: 20px auto;
     text-align: center;
+    padding-top: auto;
+    height: 250px;
+    width: 100%;
+}
+/* Single page */
+
+.entry-header {
+    padding-top: 20px;
+    width: font-size: 2em;
+    padding-left: 5%;
+    text-align: left;
     background: white;
-    border-radius:100%;
-    width:200px;
-    height: 200px;
-    padding-top:auto;
-    border:5px solid black;
+
 }
 
+.entry-content {
+    margin-top: -50px;
+    padding: 5%;
+    background-color: white;
+    line-height: 1.4em;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.entry-content img {
+    display:block;
+
+    border-bottom: 1px solid black; 
+        padding-top:30px;
+    padding-bottom:30px;
+    width:100%; 
+    margin:0 auto;
+
+}
+
+
+/* Elements */
+
 a {
-    color:white;
-    text-decoration:none;
+    color: white;
+    
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
 }
 
 footer {
-    margin: 0 auto;
-    text-align:center;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    margin: 0 auto 20px;
+    
+    text-align: center;
 }
