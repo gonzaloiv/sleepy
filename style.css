@@ -1,10 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 /*
 Theme Name: Sleepy
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Author: gonzaloiv
+Description: A simple one page Wordpress Theme
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -906,18 +904,17 @@ Sleepy.............................
     font-weight: 100;
     font-style: normal;
     text-decoration: none;
-
 }
 
 .site-description {
     text-transform: uppercase;
-    display:inline-block;
-    float:left;
+    display: inline-block;
+    float: left;
     letter-spacing: 1px;
-    height:40px;
+    height: 40px;
     margin-top: 30px;
-    color:white;
-    width:100%;
+    color: white;
+    width: 100%;
 }
 
 .site-branding {
@@ -929,41 +926,62 @@ Sleepy.............................
 }
 /* Single page */
 
+
+.entry-content{
+    background-color: white;
+    width:100%;
+    
+    
+}
 .entry-header {
-    padding-top: 20px;
-    width: font-size: 2em;
-    padding-left: 5%;
     text-align: left;
     background: white;
     letter-spacing: 1px;
+    display: inline-block;
+    margin:0 auto;
 }
 
-.entry-content {
-    margin-top: -50px;
-    padding: 5%;
+.content {
+    padding: 10px 5%;
     background-color: white;
     line-height: 1.4em;
     font-weight: 200;
     letter-spacing: 0.5px;
+    font-size:1.2em;
 }
 
-.entry-content img {
-    display:block;
-
-    border-bottom: 1px solid black; 
-        padding-top:30px;
-    padding-bottom:30px;
-    width:100%; 
-    margin:0 auto;
-
+.content img {
+    display: block;
+    border-bottom: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 90%;
+    margin: auto;
 }
 
+.content a {
+    letter-spacing:1px;
+    background-color: #596E75;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8em;
+    background-color: #596E75;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 200;
+    transition: all .2s;
+}
 
+.content a:hover {
+    opacity: 0.8;
+    color: black;
+}
 /* Elements */
 
 a {
     color: white;
-    
     text-decoration: none;
 }
 
@@ -975,6 +993,19 @@ footer {
     font-size: 0.8em;
     letter-spacing: 0.5px;
     margin: 0 auto 20px;
-    
     text-align: center;
+}
+
+@media (min-width:960px){
+    .content{
+        width:960px;
+        margin:0 auto;
+    }
+}
+
+@media (max-width:400px){
+    .content{
+        width:480px;
+        margin:0 auto;
+    }
 }
