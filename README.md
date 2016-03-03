@@ -1,3 +1,3 @@
 # sleepy
 A responsive single page Wordpress theme.
-![alt Sleepy](https://drive.google.com/open?id=0B4Ai2actge7mcTE3ZVMxRU5UaVE)
+![Sleepy](https://drive.google.com/file/d/0B4Ai2actge7mcTE3ZVMxRU5UaVE/view?usp=sharing)
